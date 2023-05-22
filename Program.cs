@@ -7,6 +7,8 @@
             Console.WriteLine("Welcome to Line Comparison Computation Program");
             CalculateLength calculator = new CalculateLength();
             calculator.calculatelength();
+            CheckEquality equalityChecker = new CheckEquality();
+            equalityChecker.checkequality();
         }
     }
 }
