@@ -9,6 +9,8 @@
             calculator.calculatelength();
             CheckEquality equalityChecker = new CheckEquality();
             equalityChecker.checkequality();
+            CompareTwoLines lineComparer = new CompareTwoLines();
+            lineComparer.comparetwolines();
         }
     }
 }
